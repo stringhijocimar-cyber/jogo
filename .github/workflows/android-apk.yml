@@ -5,6 +5,9 @@ on:
     branches:
       - feature/trilha-android
       - agent/test-write-access
+  pull_request:
+    branches:
+      - agent/test-write-access
   workflow_dispatch:
 
 permissions:
